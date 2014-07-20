@@ -14,6 +14,10 @@ public class InexactSearch {
 
     private Soundex soundex;
 
+    private static final String MODULE_NAME = "Inexact Search";
+    private static final String MODULE_INFORMATION = "This class provides methods for fuzzy " +
+            "searching using word distance as well as phonetics.";
+
     /**
      * Constructor
      */
@@ -121,5 +125,23 @@ public class InexactSearch {
             searchResults.put(word, compare(word, key));
         }
         return searchResults;
+    }
+
+    /**
+     * This function gives name of the module
+     *
+     * @return name of module
+     */
+    public String getModuleName() {
+        return InexactSearch.MODULE_NAME;
+    }
+
+    /**
+     * This function gives a brief description of the module
+     *
+     * @return brief information regarding the module
+     */
+    public String getModuleInformation() {
+        return InexactSearch.MODULE_INFORMATION;
     }
 }
