@@ -31,7 +31,10 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':sdk-render')
     compile project(':sdk-common')
     compile project(':sdk-soundex')
 }
+
+// Uncomment following code while updating on maven central
+//
+// apply from: '../gradle-mvn-push.gradle'
