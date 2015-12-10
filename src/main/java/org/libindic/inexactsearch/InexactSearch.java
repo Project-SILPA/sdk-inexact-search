@@ -1,6 +1,6 @@
-package org.silpa.inexactsearch;
+package org.libindic.inexactsearch;
 
-import org.silpa.soundex.Soundex;
+import org.libindic.soundex.Soundex;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,10 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="org.silpa.inexactsearch">
-
-    <uses-sdk
-        android:minSdkVersion="9"
-        android:targetSdkVersion="19" />
-
+    package="org.libindic.inexactsearch">
 
     <application
         android:allowBackup="true"

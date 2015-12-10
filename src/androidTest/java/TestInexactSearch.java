@@ -3,7 +3,7 @@ import android.test.suitebuilder.annotation.LargeTest;
 import android.test.suitebuilder.annotation.MediumTest;
 import android.test.suitebuilder.annotation.SmallTest;
 
-import org.silpa.inexactsearch.InexactSearch;
+import org.libindic.inexactsearch.InexactSearch;
 
 /**
  * Created by sujith on 21/7/14.
